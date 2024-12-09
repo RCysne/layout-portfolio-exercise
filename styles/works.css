@@ -1,0 +1,15 @@
+#works {
+    background-color: var(--gray-200);
+}
+
+.work-titles {
+    
+    
+    p {
+        color: var(--red-color);
+    }
+
+    h3 {
+        color: var(--gray-600);
+    }
+}

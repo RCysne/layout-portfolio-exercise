@@ -1,0 +1,115 @@
+header {
+    width: 100;
+    height: 100vh;
+
+    background-image: url(../assets/background/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+    h3 {
+        color: var(--gray-500);
+        font: var(--text-subtitle);
+    
+        span {
+            color: var(--red-color);
+            font: var(--text-subtitle);
+        }
+    }
+
+    h1 {
+        color: var(--gray-600);
+        font: var(--text-asap-lg);
+    }
+
+    p {
+        color: var(--gray-400);
+        font: var(--text-asap-sm);
+    }
+
+}
+
+#picture-profile {
+    position: relative;
+    padding-top: 9rem;
+}
+
+
+#photo-profile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+
+header #photo-profile img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid var(--red-color);
+    padding: 3px;
+    border-radius: 50%;
+}
+
+#tags-html {
+    position: absolute;
+    bottom: 0;
+    right: 43%;
+    z-index: 99;
+    width: 30px;
+}
+
+header #text-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        margin-bottom: 16px;
+    }
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    p {
+        margin-bottom: 90px;
+    }
+}
+
+#profile-tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.tags {
+    height: 40px;
+    background-color: var(--gray-300);
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 9px;
+    gap: 8px;
+
+    span {
+        font: var(--text-maven-md);
+        color: var(--gray-500);
+    }
+}
+
+.profile div:nth-child(4) img {
+    margin: 0 auto;
+}
+
+#arrow {
+    margin-top: 104px;
+
+    display: flex;
+    justify-content: center;
+}
