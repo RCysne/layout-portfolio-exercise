@@ -1,15 +1,49 @@
 #works {
     background-color: var(--gray-200);
+    padding-block: 144px;
 }
 
 .work-titles {
-    
+    padding: 72px 0 56px;
     
     p {
         color: var(--red-color);
+        font: var(--text-subtitle);
     }
 
     h3 {
         color: var(--gray-600);
+        font: var(--text-asap-md);
+    }
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    border-radius: 10px;
+
+    
+}
+
+.card {
+    border-radius: 10px;
+    padding: 12px;
+    background-color: var(--gray-300);
+
+    img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    h3 {
+        color: var(--gray-600);
+        font: var(--text-asap-sm);
+        margin: 24px 0 8px;
+    }
+
+    p {
+        color: var(--gray-500);
+        font: var(--text-maven-sm);
     }
 }
